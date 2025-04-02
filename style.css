@@ -1,6 +1,8 @@
 body{
     font-family: "Inter", sans-serif;
     font-size: 15px;
+    max-width: 1130px;
+    margin: 0 auto;
 }
 header{
     display: flex;
@@ -31,4 +33,26 @@ a{
     background-color: #0070a0;
     padding: 6px 20px;
     border: none;
+}
+h1{
+    font-family: "Fraunces", serif;
+    font-size: 58px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+.main-info-text{
+    font-size: 20px;
+    color: #1F1F1F;
+}
+.main-info-button{
+    display: flex;
+    align-items: center;
+}
+.main-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-info-left{
+    width: 525px;
 }
