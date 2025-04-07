@@ -3,6 +3,7 @@ body{
     font-size: 15px;
     max-width: 1130px;
     margin: 0 auto;
+    color: #1F1F1F;
 }
 header{
     display: flex;
@@ -52,7 +53,53 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 70px auto 120px auto;
 }
 .main-info-left{
     width: 525px;
+}
+.companies-text{
+    margin: 0 auto;
+    width: fit-content;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+li{
+    list-style-type: none;    
+}
+.companies-list{
+    display: flex;
+    justify-content: center;
+}
+.companies-list li{
+    margin-right: 62px;   
+   
+}
+.Features{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 162px;
+    margin-bottom: 120px; 
+}
+
+.Features div {
+    padding: 32px 32px 40px 32px;
+    width: 291px;
+}
+h2{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    font-weight: 400;  
+}
+.Features-fast{
+    background-color: #FAEA73;
+}
+
+.Features-bucks{
+    background-color: #CCEFF6;
+}
+
+.Features-hand{
+    background-color: #F7CEDC;
 }
