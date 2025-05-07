@@ -1,9 +1,6 @@
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
-
-
-
 body {
     font-family: "Inter", sans-serif;
     font-size: 15px;
@@ -291,18 +288,21 @@ h4 {
 
 
 .footer-up{
-    margin: 130px 064px 0;
+    margin: 130px 0 64px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer-logo{
-    width: 400px;
+    width: 430px;
 }
-.footer-logo-link{
+.footer-logo-links{
     color: #0070A0;
 }
 .footer-logo p{
     margin: 0;
+}
+.footer-logo img{
+    margin-bottom: 19px;
 }
 .footer-nav a{
     display: block;
@@ -315,7 +315,7 @@ h6{
     font-weight: 400;
 }
 .footer-news{
-    width: 210px;
+    width: 220px;
 }
 .footer-news input{
     border: none;
@@ -323,19 +323,21 @@ h6{
     border-bottom: 1px solid #C2CDD8;
     padding: 17px 0 7px 15px;
 }
-.footer-news button{
-    border:none;
-    background: none;
-}
 .footer-news button::after{
-    content: url(assets/arrow.svg);
+    content: url(assets/Final.svg);
+}
+.footer-news button{
+    border: none;
+    background: none;
 }
 .footer-down{
     padding: 35px 0 32px 0;
-    border-top: 1px solid #C2CDD8;
+    border-top: 1px solid #DEE5EB;
     display: flex;
     justify-content: space-between;
 }
-.footer-social{
+.footer-social a{
     margin-right: 20px;
 }
+
+
